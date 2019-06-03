@@ -1,0 +1,116 @@
+// Import the branding helpers so we can use them in this file.
+@import (reference) "../brand-functions.less";
+
+// Change the homescreen background to the image "background.jpeg"
+.set-homescreen-background(url('./background.jpg'));
+
+// Change the header logo to the image "header.png"
+.set-logo(url('./logo.png'));
+
+
+// Re-theme the UI around the colours #DD1021 (Red) and #FFCC00 (Yellow)
+.set-color(#00B2A9,#FAE1DC );
+
+
+.ot-web-header-bar{
+	 background-size: 60px 46px;
+	 background-color: white;}
+
+.ot-search-button ,.ot-search-button :hover{
+background-image: url('../../style/img/header/search.svg') !important; 
+background-size: 30px 28px !important
+}
+#searchInput :focus{
+	outline :black auto 5px !important;
+	}
+
+ .ot-search-button :hover{
+	 background-size: 30px 28px !important;
+    background-image: url('../../style/img/header/search.svg')  !important;
+	 }
+	 
+	 .ot-web-header-bar .add-new-widget-header{
+	  background-image: url('../../style/img/header/plus.png')  !important;
+	  background-size: 30px 28px !important
+	 }
+	 
+ .ot-downloads-btn, .ot-downloads-btn:hover{
+ background-image: url('../../style/img/header/download-button.svg') !important; 
+ background-size: 30px 28px !important
+ }
+ 
+ 	 .ot-web-header-bar ot-point[ot-lookup='HelpActions'] > #ot-help-menu {
+	  background-image: url('../../style/img/header/question-mark.svg') !important; 
+ background-size: 30px 28px !important
+	 }
+	 .ot-web-header-bar .ot-home,.ot-web-header-bar .ot-home:hover{
+	 	  background-image: url('../../style/img/header/home-icon-silhouette.svg') !important; 
+ background-size: 30px 28px !important;
+ 	 }
+ot-user-profile ot-point[ot-lookup="UserProfileActions"] > .ot-user-profile-entry,
+	ot-user-profile ot-point[ot-lookup="UserProfileActions"] > .ot-user-profile-entry:hover, ot-user-profile ot-point[ot-lookup="UserProfileActions"] > .ot-user-profile-entry:focus, ot-user-profile ot-point[ot-lookup="UserProfileActions"] > .ot-user-profile-entry:active
+{
+    background: url('../../style/img/header/user.png')!important;
+    background-size: 37px 35px!important;
+	
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+	width: 4rem !important;
+    height: 4rem !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    float: right !important;
+	}
+	 
+	 [ot-device-platform="desktop"] input[type=text].ot-search-input{
+color:black;
+}
+
+.ot-help-menu-selected,.ot-user-menu-selected {
+background-color :#00b2a9  !important;
+}
+
+.ot-user-menu-selected,
+.ot-point-hover[ot-lookup="HelpActions"] {
+background-color :#00b2a9  !important;
+}
+.ot-workflow-job-icon:hover {
+    background-position: 1.5rem !important;
+	}
+	
+	
+.ot-button:not([disabled]).ot-button-toggle:hover{
+	    background-color: #00b2a9 !important;
+
+}
+
+
+ot-view[ot-view-type="ActivitiesSidebarView"] .ot-activities-list-entry .ot-mydownloads-icon:hover,{
+    transform: scale(1.1);
+	background-position: inherit !important;
+}
+
+ot-view[ot-view-type="ActivitiesSidebarView"] .ot-activities-list-entry .ot-myactivities-icon:hover {
+ transform: scale(1.1);
+ background-position: inherit !important;
+}
+
+ot-view[ot-view-type="ActivitiesSidebarView"] .ot-activities-list-entry .ot-assignments-icon:hover {
+ transform: scale(1.1);
+ background-position: inherit !important;
+}
+
+
+
+.ot-button:not([disabled]):not(.secondary):hover {
+   
+    background-color: #00b2a9 !important;}
+	
+	
+	.ot-workflow-job-icon{
+	 transform: scale(1.1);
+ background-position: inherit !important;
+	}
+	 
+	 
+	 
